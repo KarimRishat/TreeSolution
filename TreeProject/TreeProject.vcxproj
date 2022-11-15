@@ -140,12 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Node.cpp" />
+    <ClCompile Include="StreamOutput.cpp" />
+    <ClCompile Include="Test.cpp" />
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="TreeProject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Node.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StreamOutput.h" />
+    <ClInclude Include="Test.h" />
     <ClInclude Include="Tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TreeProject.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
