@@ -28,7 +28,7 @@ namespace TreeSpace
 
 		bool is_leaf() const
 		{
-			return left() == nullptr && its_right == nullptr;
+			return left() == nullptr && right() == nullptr;
 		}
 		bool is_root() const
 		{
